@@ -15,7 +15,7 @@ export default function Home() {
       </div>
 
       {/* Main Content */}
-      <main className="flex flex-col items-center gap-8 w-full max-w-3xl">
+      <main className="flex flex-col items-center gap-8 w-full max-w-3xl mx-auto mt-12 px-4 sm:px-6 md:px-8">
         <Image
           className="rounded-full border-4 border-[#ff007f] mt-10"
           src="/images/bergaman-circle.png"
@@ -28,6 +28,7 @@ export default function Home() {
         </p>
 
         <div className="flex flex-col gap-8 w-full">
+          {/* Our Services Section */}
           <section className="border border-[#2a2e43] p-6 rounded-lg bg-[#1e0131]">
             <h2 className="text-xl font-semibold text-[#ff007f] border-b border-[#2a2e43] pb-3">Our Services</h2>
             <ul className="list-disc list-inside mt-6 text-md text-[#00c8ff]">
@@ -39,6 +40,7 @@ export default function Home() {
             </ul>
           </section>
 
+          {/* Featured Projects Section */}
           <section className="border border-[#2a2e43] p-6 rounded-lg bg-[#1e0131]">
             <h2 className="text-xl font-semibold text-[#ff007f] border-b border-[#2a2e43] pb-3">Featured Projects</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
@@ -55,15 +57,15 @@ export default function Home() {
             </div>
           </section>
 
+          {/* Contact Us Section */}
           <section className="border border-[#2a2e43] p-6 rounded-lg bg-[#1e0131]">
-  <h2 className="text-xl font-semibold text-[#ff007f] border-b border-[#2a2e43] pb-3 mb-4">
-    Contact Us
-  </h2>
-  <p className="text-[#00c8ff]">
-    For inquiries, reach out via email or connect with us on social media.
-  </p>
-</section>
-
+            <h2 className="text-xl font-semibold text-[#ff007f] border-b border-[#2a2e43] pb-3 mb-4">
+              Contact Us
+            </h2>
+            <p className="text-[#00c8ff]">
+              For inquiries, reach out via email or connect with us on social media.
+            </p>
+          </section>
         </div>
       </main>
 
